@@ -1,0 +1,55 @@
+body{
+    
+    background-image: linear-gradient(60deg,rgb(150, 218, 72), rgb(207, 122, 224)) ;
+    font-family: 'Montserrat', sans-serif;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 15px;
+    color: white;
+}
+    input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 5px;
+    }
+.button{
+    background-color: rgb(162, 68, 190);
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size:15px;
+    border: none;
+    color: #ffffff;
+    cursor:pointer;
+    margin-bottom: 2%;
+
+    
+}
+.button:hover{
+    background-color: rgb(216, 101, 226);
+    cursor:pointer;
+}
+
+
+p, a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+      font-size: 24px;
+}
